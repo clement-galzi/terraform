@@ -1,5 +1,5 @@
 module "container" {
-  source = "/home/emait/terraform/module"
+  source = "git@github.com:clement-galzi/terraform.git//module"
   memory           = 200
   number_container = 3
   privileged       = false
